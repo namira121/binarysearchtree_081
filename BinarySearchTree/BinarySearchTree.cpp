@@ -13,7 +13,7 @@ public:
 	Node(string i, Node* l, Node* r) 
 	{
 		info = i;
-		leftchild = 1;
+		leftchild = l;
 		rightchild = r;
 	}
 };
@@ -21,5 +21,10 @@ public:
 class BinaryTree
 {
 public:
-	Node* ROOT;
+	Node* ROOT; 
+
+	BinaryTree()
+	{
+		ROOT = NULL; // Initializing ROOT to null
+	}
 };
