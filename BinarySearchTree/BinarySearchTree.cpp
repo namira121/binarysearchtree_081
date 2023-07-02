@@ -65,7 +65,7 @@ public:
 		{
 			parent = currentNode;
 			if (element < currentNode->info)
-				currentNode = currentNode->leftchild;
+				currentNode = currentNode->leftchild; 
 		}
 	}
 };
